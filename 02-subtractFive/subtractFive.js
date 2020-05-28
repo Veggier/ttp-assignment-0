@@ -1,5 +1,11 @@
 function subtractFive(num) {
-  // Insert code here;
+    if(isNaN(num)){
+      alert(num+" is not a number");
+  }
+  else{
+ 
+  return num-5;
+  }
 }
 
 // Do not edit this line;
